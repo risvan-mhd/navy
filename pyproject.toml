@@ -1,7 +1,10 @@
 [project]
 name = "navy"
 version = "0.1.0"
-description = "Add your description here"
+description = "Navy is a personal terminal REPL for rapid directory navigation on Windows (because work gave me no choice)."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[tool.pyright]
+pythonPlatform = "All"
